@@ -1,0 +1,153 @@
+/*========NAVIGATION============*/
+
+#navigation {
+	display: block;
+	padding-top: 15px;
+	float: right; 
+}
+
+#navigation ul li {
+	float:left;
+	display:block;
+	padding:12px 5px 0 5px; 
+
+}
+#navigation ul li.more {
+	float:left;
+	display:block;
+	padding:0 5px 0 5px; 
+}
+#navigation ul li.notification {
+	float:left;
+	display:block;
+	padding:5px 5px 0 5px; 
+}
+
+#navigation ul li.gbtn {
+	float:left;
+	display:block;
+	padding:5px 5px 0 5px; 
+}
+
+.link {
+	text-decoration: none;
+	font-family: verdana;
+	font-size: 12px;
+	color: black;
+}
+
+.link:hover {
+	text-decoration: underline;
+
+}
+
+.gbutton {
+	background-color: #4285f4;
+	border: solid 1px #4285f7;
+	border-radius: 2px;
+    text-decoration: none;
+    font-family: verdana;
+    font-size: 15px;
+    padding: 1px 15px;
+    color: white;
+}
+
+.gbutton:hover {
+	background-color: #4285f4;
+}
+
+/*======== Main Container ================= */
+
+#container {
+	font-family: verdana;
+	font-size: 12px;
+	width: 99%;  
+	border:0px solid #ccc;
+	min-height: 100%;
+	height: auto;
+}
+
+.main-logo {
+	clear:both;
+ 	margin:100px 0 0 0;
+	text-align:center;
+
+}
+
+.search-panel{
+	margin:0 auto;
+	width:50%;
+	text-align:center;
+}
+
+
+.textbox{
+	margin:20px 0;
+	padding:5px 10px;
+	width:80%;
+	border:1px solid #4285f7;
+	background: url("mic.gif");
+	background-repeat: no-repeat;
+	background-position:right;
+}
+
+
+.search-button {
+	background-color: #c6c6c6;
+	border: solid 1px #666666;
+	border-radius: 2px;
+    text-decoration: none;
+    font-family: verdana;
+    font-size: 15px;
+    padding: 5px 15px 5px 15px;
+
+}
+
+.search-button:hover {
+
+	background-color: #d4d4d4;
+}
+
+/*======== Footer =============*/
+
+
+.footer {
+
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	height: 20px;
+	border: 1px solid #ccc;
+	background-color:  #d4d4d4;
+	padding-top: 10px;
+
+
+}	
+
+.footer ul li a {
+	text-decoration: none;
+	font-family: arial, "sans serif";
+	font-size: 12px;
+	color: black;
+	padding: 0px 15px;
+
+}
+
+.footer ul li a:hover {
+
+	text-decoration: underline;
+}
+.leftlink {
+	float: left;
+	
+}
+
+.rightlink {
+	float: right;
+	
+}
+
+
+
+
